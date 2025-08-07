@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ORIENTAL PRIVATE SCHOOL | OSHXONA RASMLAR</title>
+   <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+
+    .gallery {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .gallery h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2.5rem;
+      color: #f8f8f8;
+      border-bottom: 2px solid #444;
+      display: inline-block;
+      padding-bottom: 10px;
+    }
+
+    .gallery-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery-container img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .gallery-container img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
+    }
+    /* O‘ng-pastdagi tugma */
+    .fixed-bottom-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 12px 20px;
+      background-color: #007bff;
+      color: white;
+      border-radius: 50px;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: bold;
+      z-index: 999;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      transition: background 0.3s ease;
+    }
+
+    .fixed-bottom-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <section class="gallery">
+    <h1>Maktab oshxonamizda faqat halol va pokiza ovqatlar tayyorlanadi.</h1>
+   
+    <div class="gallery-container">
+      <img src="assets/images/oshxona1.jpg" alt="Rasm 1" />
+      <img src="assets/images/oshxona2.jpg" alt="Rasm 1" />
+      <img src="assets/images/oshxona3.jpg" alt="Rasm 1" />
+      <img src="assets/images/oshxona4.jpg" alt="Rasm 1" />
+      <img src="assets/images/oshxona5.jpg" alt="Rasm 1" />
+      <img src="assets/images/oshxona6.jpg" alt="Rasm 1" />
+      <img src="assets/images/oshxona7.jpg" alt="Rasm 1" />
+      <img src="assets/images/oshxona8.jpg" alt="Rasm 1" />
+      <img src="assets/images/oshxona9.jpg" alt="Rasm 1" />
+      <img src="assets/images/oshxona10.jpg" alt="Rasm 1" />
+      <img src="assets/images/oshxona11.jpg" alt="Rasm 1" />
+      <img src="assets/images/oshxona12.jpg" alt="Rasm 1" />
+    </div>
+  </section>
+  <a href="index.html" class="fixed-bottom-button">Bosh sahifa</a>
+   
+</body>
+</html>
