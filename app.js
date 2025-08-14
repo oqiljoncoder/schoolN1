@@ -135,12 +135,3 @@
       });
   });
 
-const buttons = document.querySelectorAll('.show-more-btn');
-
-    buttons.forEach(button => {
-      button.addEventListener('click', () => {
-        const moreSection = button.previousElementSibling.querySelector('.more');
-        moreSection.classList.remove('hidden');
-        button.style.display = 'none';
-      });
-    });
